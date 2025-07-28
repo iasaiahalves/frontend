@@ -3,19 +3,19 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import "./App.css";
 
 // Components
-import Navbar from "./components/Navbar";
-import ProtectedRoute from "./components/ProtectedRoute";
-import Categories from "./pages/Categories";
-import Dashboard from "./pages/Dashboard";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import ProductDetail from "./pages/ProductDetail";
-import Products from "./pages/Products";
-import Profile from "./pages/Profile";
-import Register from "./pages/Register";
+import Navbar from "./components/Navbar.jsx";
+import ProtectedRoute from "./components/ProtectedRoute.jsx";
+import Categories from "./pages/Categories.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
+import Home from "./pages/Home.jsx";
+import Login from "./pages/Login.jsx";
+import ProductDetail from "./pages/ProductDetail.jsx";
+import Products from "./pages/Products.jsx";
+import Profile from "./pages/Profile.jsx";
+import Register from "./pages/Register.jsx";
 
 // Context
-import { AuthProvider } from "./context/AuthContext";
+import { AuthProvider } from "./context/AuthContext.jsx";
 
 function App() {
   return (

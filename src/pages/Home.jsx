@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Alert, Col, Container, Row } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import Button from "../components/Button";
-import ProductCard from "../components/ProductCard";
-import { useAuth } from "../context/AuthContext";
+import Button from "../components/Button.jsx";
+import ProductCard from "../components/ProductCard.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 import { productsAPI } from "../services/api";
 
 const Home = () => {

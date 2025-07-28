@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Alert, Col, Container, Form, Row, Spinner } from "react-bootstrap";
-import InputField from "../components/InputField";
-import ProductCard from "../components/ProductCard";
+import InputField from "../components/InputField.jsx";
+import ProductCard from "../components/ProductCard.jsx";
 import { categoriesAPI, productsAPI } from "../services/api";
 
 const Products = () => {

@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Alert, Badge, Col, Container, Row, Spinner } from "react-bootstrap";
 import { useNavigate, useParams } from "react-router-dom";
-import Button from "../components/Button";
-import Card from "../components/Card";
-import { useAuth } from "../context/AuthContext";
+import Button from "../components/Button.jsx";
+import Card from "../components/Card.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 import { productsAPI } from "../services/api";
 
 const ProductDetail = () => {

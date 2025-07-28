@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Card from "../components/Card";
-import CategoryManagement from "../components/CategoryManagement";
-import ProductManagement from "../components/ProductManagement";
-import { useAuth } from "../context/AuthContext";
+import Card from "../components/Card.jsx";
+import CategoryManagement from "../components/CategoryManagement.jsx";
+import ProductManagement from "../components/ProductManagement.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 import { categoriesAPI, productsAPI } from "../services/api";
 
 const Dashboard = () => {

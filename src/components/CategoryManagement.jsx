@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Alert, Col, Form, Modal, Row, Table } from "react-bootstrap";
 import { categoriesAPI } from "../services/api";
-import Button from "./Button";
-import InputField from "./InputField";
+import Button from "./Button.jsx";
+import InputField from "./InputField.jsx";
 
 const CategoryManagement = () => {
   const [categories, setCategories] = useState([]);

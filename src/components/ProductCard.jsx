@@ -1,6 +1,6 @@
 import { Badge, Card } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import Button from "./Button";
+import Button from "./Button.jsx";
 
 const ProductCard = ({ product }) => {
   const imageUrl = product.image

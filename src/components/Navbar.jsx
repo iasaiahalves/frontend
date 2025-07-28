@@ -5,7 +5,7 @@ import {
   NavDropdown,
 } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import { useAuth } from "../context/AuthContext";
+import { useAuth } from "../context/AuthContext.jsx";
 
 const Navbar = () => {
   const { user, logout, token } = useAuth();

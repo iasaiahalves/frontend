@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Alert, Col, Container, Form, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import Button from "../components/Button";
-import Card from "../components/Card";
-import InputField from "../components/InputField";
-import { useAuth } from "../context/AuthContext";
+import Button from "../components/Button.jsx";
+import Card from "../components/Card.jsx";
+import InputField from "../components/InputField.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 import { usersAPI } from "../services/api";
 
 const Profile = () => {

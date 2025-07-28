@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { Container, Row, Col, Alert, Spinner, ListGroup, Badge, Modal, Form } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { Alert, Badge, Col, Container, Form, ListGroup, Modal, Row, Spinner } from 'react-bootstrap';
+import Button from '../components/Button.jsx';
+import Card from '../components/Card.jsx';
+import InputField from '../components/InputField.jsx';
+import { useAuth } from '../context/AuthContext.jsx';
 import { categoriesAPI, productsAPI } from '../services/api';
-import { useAuth } from '../context/AuthContext';
-import Button from '../components/Button';
-import InputField from '../components/InputField';
-import Card from '../components/Card';
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);

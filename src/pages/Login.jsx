@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Alert, Col, Container, Form, Row } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
-import Button from "../components/Button";
-import Card from "../components/Card";
-import InputField from "../components/InputField";
-import { useAuth } from "../context/AuthContext";
+import Button from "../components/Button.jsx";
+import Card from "../components/Card.jsx";
+import InputField from "../components/InputField.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 
 const Login = () => {
   const [formData, setFormData] = useState({
